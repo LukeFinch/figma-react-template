@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "outDir": "dist",
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "experimentalDecorators": true,
+      "removeComments": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "strict": true,
+      "strictNullChecks": true,
+      "baseUrl": "./",
+      "typeRoots": [
+        "./node_modules/@types",
+        "./node_modules/@figma"
+      ],
+      "paths": {
+        "@/*": ["src/*"]
+      },
+    },
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [
+      "**/*.ts",
+      "**/*.tsx"
+    ]
+  }

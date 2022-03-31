@@ -1,0 +1,9 @@
+{
+    "name": "NK Tokens",
+    "id": "my-plugin-id",
+    "api": "1.0.0",
+    "main": "dist/code.js",
+    "ui": "dist/index.html",
+    "editorType": ["figma"],
+    "permissions": ["currentuser"]
+  }
